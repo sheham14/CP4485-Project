@@ -1,0 +1,31 @@
+html {
+    background-image: url("background-image.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%
+   }
+
+.title{
+    padding-top: 375px;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Brush Script MT', 'Arial Narrow', Arial, sans-serif ;
+    font-size: 100px;
+    color: #92a8d1;
+    padding-bottom: 0px;
+}
+
+.nameLabel {
+    color: aliceblue;
+}
+
+.startbtn {
+    background-color: cyan;
+    font-size: 30px;
+    border-radius: 70%;
+    padding: 10px 25px;
+    border: 3px solid black;
+}
