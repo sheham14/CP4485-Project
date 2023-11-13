@@ -1,0 +1,65 @@
+html {
+    background-image: url("game_bg1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.playerDiv {
+    margin: auto;
+    float: left;
+    width: 50%;
+    height: 100px;
+}
+
+.compDiv {
+    margin: auto;
+    float: right;
+    width: 50%;
+    height: 100px;
+    text-align: right;
+}
+
+.compImg {
+    height: 300px;
+}
+
+.playerImg {
+    height: 250px;
+}
+
+.gameTxt {
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+.rockbtn{
+    background-color: brown;
+    font-size: 30px;
+    border-radius: 70%;
+    padding: 10px 25px;
+    border: 3px solid black;
+}
+
+.paperbtn{
+    background-color: white;
+    font-size: 30px;
+    border-radius: 70%;
+    padding: 10px 25px;
+    border: 3px solid black;
+}
+
+.scissorsbtn{
+    background-color: slategray;
+    font-size: 30px;
+    border-radius: 70%;
+    padding: 10px 25px;
+    border: 3px solid black;
+}
+
+.btndiv{ 
+    margin: auto;
+    width: 60%;
+
+}
