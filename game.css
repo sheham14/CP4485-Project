@@ -21,6 +21,10 @@ html {
     text-align: right;
 }
 
+.result {
+    flex-wrap: wrap ;
+}
+
 .compImg {
     height: 300px;
 }
