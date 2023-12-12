@@ -1,22 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<meta charset="UTF-8">
-<title>CP4485 Project Game</title>
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<link rel="stylesheet" href="game.css">
-<script src="game.js"></script>
-<body>
+  <head>
+    <meta charset="UTF-8">
+    <title>CP4485 Project Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="game.css">
+    <script src="game.js"></script>
+    <meta http-equiv="Content-Security-Policy" content="font-src 'self' http://localhost:3000;">
+  </head>
+  <body>
+
+
+<div id="mainGameScreen">
+
 <div class="playerDiv">
+
 <p id="playerName" class="gameTxt">Player Name</p>
 <p class="gameTxt">Score: <span id="playerScore" class="gameTxt"></span></p>
-<img id="playerImg" src="Player-Idle-removebg-preview.png" class="playerImg">
-<div id="result" class="result"><h1 class='gameTxt'></h1></div>
+<img id="playerImg" src="images/Player-Idle-removebg-preview.png" class="playerImg">
+
+<div id="result" class="result"><h2></h2></div>
 </div>
 
 <div class="compDiv">
+
 <p class="gameTxt">Computer</p>
 <p id="compScore" class="gameTxt"></p>
-<img id="compImg" src="Comp-Idle-removebg-preview.png" class="compImg">
+<img id="compImg" src="images/Comp-Idle-removebg-preview.png" class="compImg">
+
 </div>
 
 
@@ -27,7 +38,16 @@
     <button id="paperBtn" class="paperbtn">Paper</button>
     <button id="scissorsBtn" class="scissorsbtn">Scissors</button>
 </div>
+</div>
 
+<div id="titleScreen" class="title">
+
+    <h1>Rock Paper Scissors</h1><br>
+    <label class="nameLabel" for="pname">Player Name: </label>
+    <input type="text" id="pname" placeholder="Enter your name" required><br><br><br>
+    <button id="startBtn" class="startBtn">Start</button>
+    
+    </div>
 
 </body>
 </html>

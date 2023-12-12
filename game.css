@@ -1,5 +1,5 @@
 html {
-    background-image: url("game_bg1.jpg");
+    background-image: url("images/game_bg1.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -66,4 +66,46 @@ html {
     margin: auto;
     width: 60%;
 
+}
+
+#mainGameScreen{
+visibility: hidden;
+}
+
+#result{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+}
+
+
+-------------------------------------------------------------------------------------------------------
+
+
+.title{
+
+    text-align: center;
+}
+
+#titleScreen{
+    visibility: visible;
+    margin-top: -820px;
+}
+
+h1{
+    font-family: 'Brush Script MT', 'Arial Narrow', Arial, sans-serif ;
+    font-size: 100px;
+    color: black;
+    padding-bottom: 0px;
+}
+
+.nameLabel {
+    color: aliceblue;
+}
+
+.startBtn {
+    background-color: cyan;
+    font-size: 30px;
+    border-radius: 70%;
+    padding: 10px 25px;
+    border: 3px solid black;
 }
